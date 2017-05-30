@@ -2,10 +2,13 @@ class Song(object):
 
 	def __init__(self, lyrics):
 		self.lyrics = lyrics
+		
 
 	def sing_me_a_song(self):
 		for line in self.lyrics:
 			print line
+		
+		print '-\n' *10
 
 
 happy_bday_lyrics = ["Happy birthday to you","I don't want to get sue.", "So I'll stop right there"]
